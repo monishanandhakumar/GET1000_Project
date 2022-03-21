@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESKdIbgYz78gPa4uYOGH6drUyXidakSVlD8bsRLfcXJ8yuTiHNHkQHE6LeZsgoP7H8YWXZP8DtwKqOnEqFuRvw==",
+  "dgSpecHash": "3L1v/tAKpDQYj/BRMJZEBgZ09azQP+hQs4fvCJ1fqOV6yIeikmGMtew1tOpH4bJU5WCWMk7UiE+IhRHHr3WP4A==",
   "success": true,
-  "projectFilePath": "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
+  "projectFilePath": "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MonishaDevi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\MonishaDevi\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

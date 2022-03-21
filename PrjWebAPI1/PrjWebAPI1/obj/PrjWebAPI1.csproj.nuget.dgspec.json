@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj": {}
+    "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj": {}
   },
   "projects": {
-    "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj": {
+    "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
+        "projectUniqueName": "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
         "projectName": "PrjWebAPI1",
-        "projectPath": "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
+        "projectPath": "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\PrjWebAPI1.csproj",
         "packagesPath": "C:\\Users\\MonishaDevi\\.nuget\\packages\\",
-        "outputPath": "C:\\OnlineTraining\\LTI\\.Net1000\\Angular\\PrjWebAPI1\\PrjWebAPI1\\obj\\",
+        "outputPath": "C:\\OnlineTraining\\LTI\\.Net1000\\ProjectDemo\\PrjWebAPI1\\PrjWebAPI1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
