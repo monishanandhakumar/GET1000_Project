@@ -14,6 +14,7 @@ export class AppComponent {
 usercheck;
   ngOnInit() {
 
+    console.log(this.loginservice.loginsessionvariable);
      //To avoid calling the method through url
      if(this.loginservice.loginsessionvariable)
      {

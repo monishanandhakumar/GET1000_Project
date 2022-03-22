@@ -31,8 +31,7 @@ namespace PrjLoginAPI.Controllers
             }
             else
             {
-                string msg = "Invalid";
-                return BadRequest();
+                return BadRequest(new { message = "Invalid" });
             }
         }
     }

@@ -28,6 +28,7 @@ export class LoginService
       this.loginuser= sessionStorage.getItem('username');
       if(this.loginuser!="")
       {
+          debugger;
           this.loginsessionvariable=true;
       }
       else{

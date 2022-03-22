@@ -1,3 +1,4 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -50,22 +51,28 @@ err;
          {
            debugger;
            console.log("Inside ")
-        //  this.loginservice.loginuservariable=true;
+        this.loginservice.loginuservariable=true;
           this.userrouter.navigate(['/employee']);
           
          }
          
-       else 
+     /*  else 
        {
         console.log(this.loggedinempdetails.text);
          debugger;
          this.userrouter.navigate(['/login']);
          this.err="Invalid Mobile No or Password!!!";
-       }
+       }*/
 
-       }, (error) => {                              //Error callback
-        console.error(error)
-        this.err= error.text});
+       }, (error:HttpErrorResponse) => {                              //Error callback
+        console.error(error);
+        if(error.status==400)
+        {
+          this.userrouter.navigate(['/login']);
+          //this.err= error.error.message;
+          this.err="Invalid Mobile No or Password!!!";
+        }
+      });
       }
       else{
         this.err="Please enter valid creditianls!!!";
