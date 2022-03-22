@@ -39,7 +39,7 @@ err;
 
     else if(this.emp!= null)
     {
-       this.loginservice.empLogin(this.emp).subscribe((data)=>{console.log(data),
+       this.loginservice.empLogin(this.emp).subscribe((data)=>{
         this.loggedinempdetails=data as JSON;
         debugger;
 
@@ -50,7 +50,6 @@ err;
          if(data!='Invalid')
          {
            debugger;
-           console.log("Inside ")
         this.loginservice.loginuservariable=true;
           this.userrouter.navigate(['/employee']);
           
@@ -65,7 +64,7 @@ err;
        }*/
 
        }, (error:HttpErrorResponse) => {                              //Error callback
-        console.error(error);
+       
         if(error.status==400)
         {
           this.userrouter.navigate(['/login']);
