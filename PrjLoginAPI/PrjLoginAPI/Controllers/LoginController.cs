@@ -34,5 +34,14 @@ namespace PrjLoginAPI.Controllers
                 return BadRequest(new { message = "Invalid" });
             }
         }
+
+
+        public IActionResult Ticketcancellation(dynamic bid)
+        {
+            
+
+
+            return Ok();
+        }
     }
 }

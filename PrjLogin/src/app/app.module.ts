@@ -8,13 +8,15 @@ import { HomeComponent } from './home/home.component';
 import { LoginService } from './Service/login.service';
 import { FormsModule } from '@angular/forms';
 import { EmployeeComponent } from './employee/employee.component';
+import { ExamComponent } from './exam/exam.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    ExamComponent
   ],
   imports: [
     BrowserModule,

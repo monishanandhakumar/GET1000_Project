@@ -1,0 +1,10 @@
+<p>seat works!</p>
+<button (click)="getseatno($event)" id="1">1</button>
+<button (click)="getseatno($event)" id="2">2</button>
+<button (click)="getseatno($event)" id="3">3</button>
+<button (click)="getseatno($event)" id="4">4</button>
+<hr/>
+
+<div *ngFor="let s of seat">
+<button (click)="getseatno($event)">{{s.seatNo}}</button>
+</div>

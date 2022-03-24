@@ -47,4 +47,6 @@ public loginuservariable:boolean;
         this.loginuservariable=false;
        this.userrouter.navigate(['/home']);
     }
+
+    queAns:[];
 }

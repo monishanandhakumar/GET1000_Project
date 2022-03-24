@@ -22,7 +22,7 @@ export class ProductinfoComponent implements OnInit {
   }
 
 //call the getProductInfo from product service by passing productid
-selectedpro;
+selectedpro=[];
 getSelectedProduct()
 {
  //this.selectedpro= this.pser.getProductInfo(this.pid);
